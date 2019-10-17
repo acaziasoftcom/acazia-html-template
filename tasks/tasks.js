@@ -70,7 +70,7 @@ export const views = () => {
       path: ['templates/', 'public/'] // Public is required for SVG icons referrence
     }))
     .on('error', onError)
-    .pipe(gulp.dest('./'))
+    .pipe(gulp.dest(paths.views.dest))
 }
 
 /**
