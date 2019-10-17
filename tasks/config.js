@@ -1,32 +1,34 @@
+const artifactPath = 'public'
+
 export const paths = {
   styles: {
     src: 'assets/sass/**/*.scss',
-    dest: 'public/css/'
+    dest: `${artifactPath}/css/`
   },
   scripts: {
     src: 'assets/js/**/*.js',
-    dest: 'public/js/'
+    dest: `${artifactPath}/js/`
   },
   views: {
     src: 'pages/**/*.njk',
-    dest: '.'
+    dest: `${artifactPath}`
   },
   fonts: {
     src: 'assets/fonts/**/*.ttf',
-    dest: 'public/fonts'
+    dest: `${artifactPath}/fonts/`
   },
   images: {
     src: 'assets/images/**/*',
-    dest: 'public/images'
+    dest: `${artifactPath}/images/`
   },
   icons: {
     src: 'assets/icons/**/*',
-    dest: 'public/icons'
+    dest: `${artifactPath}/icons/`
   },
   raw: {
     woff: {
       src: 'assets/fonts/**/*.{woff,woff2}',
-      dest: 'public/fonts'
+      dest: `${artifactPath}/fonts/`
     }
   }
 }

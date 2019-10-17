@@ -25,7 +25,8 @@ import { copy } from './tasks/tasks'
 const server = () => {
   browserSync.init({
     server: {
-      baseDir: "./"
+      baseDir: "public/",
+      index: "index.html"
     }
   })
 }
