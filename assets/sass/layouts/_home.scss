@@ -1,0 +1,17 @@
+.intro {
+  margin: 10% auto;
+  max-width: 500px;
+  text-align: center;
+  color: $brand-alt;
+
+  a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
