@@ -8,7 +8,7 @@ export const paths = {
     dest: 'public/js/'
   },
   views: {
-    src: 'pages/**/*.nunjucks',
+    src: 'pages/**/*.njk',
     dest: '.'
   },
   fonts: {
