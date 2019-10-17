@@ -9,7 +9,7 @@ export const paths = {
   },
   views: {
     src: 'pages/**/*.njk',
-    dest: 'public/'
+    dest: '.'
   },
   fonts: {
     src: 'assets/fonts/**/*.ttf',
