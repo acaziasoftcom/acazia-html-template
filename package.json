@@ -1,5 +1,5 @@
 {
-  "name": "E2",
+  "name": "acazia-html-template",
   "private": true,
   "version": "1.0.0",
   "description": "GULP task handler for a seamless Sass workflow.",
@@ -29,8 +29,8 @@
     "build": "gulp --env production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mario Jankovic",
-  "license": "ISC",
+  "author": "Doko",
+  "license": "MIT",
   "dependencies": {
     "del": "^5.1.0"
   }
