@@ -6,5 +6,5 @@ node_modules
 .jscsrc
 bower_components
 
-public/*
+public/
 *.html

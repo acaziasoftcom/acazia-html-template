@@ -30,6 +30,7 @@
   },
   "scripts": {
     "build": "gulp --env production",
+    "start": "gulp --env development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Doko",
