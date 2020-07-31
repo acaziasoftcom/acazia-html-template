@@ -71,7 +71,6 @@ export const views = () => {
     }))
     .on('error', onError)
     .pipe(gulp.dest(paths.views.dest))
-    .pipe(browserSync.stream())
 }
 
 /**
