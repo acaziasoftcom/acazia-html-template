@@ -11,10 +11,7 @@ const production = environments.production;
 /**
  * Import theme specific tasks
  */
-import { styles } from './tasks/tasks'
-import { scripts } from './tasks/tasks'
-import { views } from './tasks/tasks'
-import { fontGenerator } from './tasks/tasks'
+import { styles, scripts, views, fontGenerator } from './tasks/tasks'
 import { imageMinification } from './tasks/tasks'
 import { svgIcons } from './tasks/tasks'
 import { copy } from './tasks/tasks'
@@ -24,8 +21,10 @@ import { copy } from './tasks/tasks'
  */
 const server = () => {
   browserSync.init({
+    watch: true,
+    injectChanges: true,
     server: {
-      baseDir: "public/",
+      baseDir: "./public/",
       index: "index.html"
     }
   })

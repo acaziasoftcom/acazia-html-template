@@ -1,48 +1,48 @@
 // COLORS
-  $white: #FFF;
-  $black: #000;
+$white: #fff;
+$black: #000;
 
-  $brand: #4856AF;
-  $brand-alt: #8FC371;
+$brand: #4856af;
+$brand-alt: #8fc371;
 
-  $success: #A7C520;
-  $error: #F3332B;
-  $warning: #FFB03B;
+$success: #a7c520;
+$error: #f3332b;
+$warning: #ffb03b;
 
-  $facebook: #3B5997;
-  $twitter: #4099FF;
+$facebook: #3b5997;
+$twitter: #4099ff;
 
 // MEDIA
-  $max-width: 1100px;
-  $content-max-width: 940px;
-  $site-max-width: 1440px;
+$max-width: 1100px;
+$content-max-width: 940px;
+$site-max-width: 1440px;
 
-  // Desktop browsers
-    $desktop-wide: 1680px;
-    $desktop: 1440px;
-    $desktop-narrow: 1200px;
+// Desktop browsers
+$desktop-wide: 1680px;
+$desktop: 1440px;
+$desktop-narrow: 1200px;
 
-  // Tablet browsers
-    $tablet-wide: 960px;
-    $tablet: 768px;
+// Tablet browsers
+$tablet-wide: 960px;
+$tablet: 768px;
 
-  // Mobile browsers
-    $mobile-wide: 670px;
-    $mobile: 480px;
-    $mobile-narrow: 370px;
+// Mobile browsers
+$mobile-wide: 670px;
+$mobile: 480px;
+$mobile-narrow: 370px;
 
 // TYPE
-  $thin: 100;
-  $light: 300;
-  $regular: 400;
-  $mediumbold: 500;
-  $semibold: 600;
-  $bold: 700;
-  $ultra: 900;
+$thin: 100;
+$light: 300;
+$regular: 400;
+$mediumbold: 500;
+$semibold: 600;
+$bold: 700;
+$ultra: 900;
 
-  @include font-face('Roboto', '../fonts/roboto/roboto-regular', 'normal', $regular);
+@include font-face("Roboto", "../fonts/roboto/roboto-regular", "normal", $regular);
 
-  $font-size: 18px;
-  $line-height: 1.5;
-  $body-font: 'Roboto', Arial, sans-serif;
-  $title-font: Georgia, serif;
+$font-size: 18px;
+$line-height: 1.5;
+$body-font: "Roboto", Arial, sans-serif;
+$title-font: Georgia, serif;

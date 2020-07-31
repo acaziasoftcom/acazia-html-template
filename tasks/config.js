@@ -10,7 +10,10 @@ export const paths = {
     dest: `${artifactPath}/js/`
   },
   views: {
-    src: 'pages/**/*.njk',
+    src: [
+      'pages/**/*.njk',
+      'templates/**/*.njk'
+    ],
     dest: `${artifactPath}`
   },
   fonts: {
