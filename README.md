@@ -1,4 +1,4 @@
-# GULP Sass/Nunjacks setup
+# GULP Sass/Nunjucks setup
 Static site workflow using GULP 4 with Sass, Imagemin, SVG sprites and Nunjucks.
 
 ## The project
