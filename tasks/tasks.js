@@ -1,6 +1,7 @@
 import gulp from 'gulp'
 import del from 'del'
 import browserSync from 'browser-sync'
+import notifier from 'node-notifier'
 import babel from 'gulp-babel'
 import concat from 'gulp-concat'
 import uglify from 'gulp-uglify'
@@ -13,7 +14,6 @@ import svgSprite from 'gulp-svg-sprite'
 import imagemin from 'gulp-imagemin'
 import ttf2woff from 'gulp-ttf2woff'
 import environments from 'gulp-environments'
-import notify from 'gulp-notify'
 
 import { paths } from './config'
 
@@ -24,9 +24,7 @@ const production = environments.production;
  * Log errors
  */
 const onError = function(err) {
-  notify.onError({
-    message:  "Error: <%= error.message %>",
-  }) (err)
+  notifier.notify({ title: 'Production Build', message: 'Done' });
 
   this.emit('end')
 }
