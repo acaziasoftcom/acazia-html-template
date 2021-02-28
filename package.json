@@ -24,7 +24,7 @@
     "gulp-ttf2woff": "^1.1.1",
     "gulp-uglify": "^3.0.2",
     "node-normalize-scss": "^8.1.2",
-    "node-notifier": "^9.0.0"
+    "node-notifier": "^8.0.1"
   },
   "engines": {
     "node": ">= 8.0.0"
