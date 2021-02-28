@@ -24,7 +24,7 @@ const production = environments.production;
  * Log errors
  */
 const onError = function(err) {
-  notifier.notify({ title: 'Production Build', message: 'Done' });
+  notifier.notify({ title: '[Error]:', message: err.message });
 
   this.emit('end')
 }
